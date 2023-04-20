@@ -1,0 +1,50 @@
+body{
+	background-color: darkcyan;
+	padding: 0;
+	margin: 0;
+}
+.container{
+	height: 220px;
+	width: 690px;
+	position: absolute;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+button{
+	font-size: 30px;
+	background-color: rebeccapurple;
+	border: none;
+	outline: none;
+	font-family: 'arial';
+	text-transform: uppercase;
+	width: 200px;
+	padding: 20px;
+	padding-left: 40px;
+	padding-right: 40px;
+	color: white;
+	margin-left: 20px;
+}
+button:nth-child(1){
+	cursor: url('rocket.png'), auto;
+}
+button:nth-child(2){
+	cursor: url('lipstick.png'), auto;
+}
+button:nth-child(3){
+	cursor: url('plane.png'), auto;
+}
+button:nth-child(4){
+	cursor: url('cheese.png'), auto;
+	position: relative;
+	left: 100px;
+	top: 30px;
+}
+button:nth-child(5){
+	cursor: url('arrow.png'), auto;
+	position: relative;
+	left: 140px;
+	top: 30px;
+}
